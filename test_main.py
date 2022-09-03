@@ -5,14 +5,11 @@ import main
 import os
 import json
 import pytest
-from dotenv import load_dotenv
 
-load_dotenv()
-
-SECRET = os.getenv('SECRET')
-TOKEN = os.getenv('TOKEN')
-EMAIL = os.getenv('EMAIL')
-PASSWORD = os.getenv('PASSWORD')
+SECRET = 'patience'
+TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjM0NDk0MzEsIm5iZiI6MTY2MjIzOTgzMSwiZW1haWwiOiJoZW5yeWNvZGUxMHhAZ21haWwuY29tIn0.c0bCu1PHV2YKA0AUhI6KcOtft0BM09UiGmMo1_GvG5s'
+EMAIL = 'henrycode10x@gmail.com'
+PASSWORD = 'rabbiIstheGreatest'
 
 
 @pytest.fixture
