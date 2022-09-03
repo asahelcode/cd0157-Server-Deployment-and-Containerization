@@ -13,9 +13,8 @@ The Flask app that will be used for this project consists of a simple API with t
 The app relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT. The built-in Flask server is adequate for local development, but not production, so you will be using the production-ready [Gunicorn](https://gunicorn.org/) server when deploying the app.
 
 
-      I bet this is going to work for sure, Thank God!!!!
-
-a590c5a7c7faf47028fddbde4f6aad07-2122186201.us-east-2.elb.amazonaws.com
+    My External IP
+    a590c5a7c7faf47028fddbde4f6aad07-2122186201.us-east-2.elb.amazonaws.com
 
 
 
