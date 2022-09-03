@@ -15,6 +15,8 @@ The app relies on a secret set as the environment variable `JWT_SECRET` to produ
 
       I bet this is going to work for sure, Thank God!!!!
 
+a590c5a7c7faf47028fddbde4f6aad07-2122186201.us-east-2.elb.amazonaws.com
+
 
 
 
