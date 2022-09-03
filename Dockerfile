@@ -6,6 +6,8 @@ FROM public.ecr.aws/sam/build-python3.7:latest
 COPY . /app 
 WORKDIR /app
 
+
+
 # Install `pip` and needed Python packages from `requirements.txt`
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
